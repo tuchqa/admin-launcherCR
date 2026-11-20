@@ -1,13 +1,16 @@
 {
-    "version":  "1.0.0",
-    "archive_url":  "https://github.com/tuchqa/admin-launcherCR/releases/download/v1.0.0/cyberrussia-admin-1.0.0.zip",
-    "archive_sha256":  "ae02cafbd1fa6bfeb0868fe6283b64013ec3316b469d3cc8f7c6b481e7b2ff7e",
+    "version":  "1.0.1",
+    "archive_url":  "https://github.com/tuchqa/admin-launcherCR/releases/download/v1.0.1/cyberrussia-admin-1.0.1.zip",
+    "archive_sha256":  "90010210fa2393de6c2fb9fad11c5f8c458ee07147a0e1d5560d9eb9a3941eaf",
     "server_ip":  "185.71.66.11",
     "server_port":  7771,
     "launch_args":  "-namalsk -c -h {ip} -p {port} -mem 8192 -n {nick}",
     "required_files":  [
                            "MoonLoader.asi",
+                           "lua51.dll",
                            "SAMPFUNCS.asi",
+                           "sf_r3_opcodes_fix.asi",
+                           "CLEO.asi",
                            "moonloader/lib/mimgui/init.lua",
                            "moonloader/lib/samp/events.lua",
                            "moonloader/AdminTool.lua",
@@ -46,7 +49,7 @@
                      "text":  "Админ-сборка ставится и обновляется автоматически. В игре: F2 или /admintool — главное меню, Alt+E или /tw — тикеты."
                  }
              ],
-    "changelog":  "AdminTool 2.0: тикеты, инфо в рекон, клавиши в рекон, AirBrake, трассеры, IP-помощник, банлист по IP, фильтр чата, авто-WH, авто /pred, радар новичков, Click Warp, скрытие HUD.",
+    "changelog":  "1.0.1: добавлены lua51.dll, CLEO и фикс SAMPFUNCS для R3 — без них MoonLoader не запускался на чистом клиенте. AdminTool 2.0: тикеты, инфо в рекон, клавиши в рекон, AirBrake, трассеры, IP-помощник, банлист по IP, фильтр чата, авто-WH, авто /pred, радар новичков, Click Warp, скрытие HUD.",
     "launcher_version":  "1.0.0",
     "launcher_url":  "https://github.com/tuchqa/admin-launcherCR/releases/latest"
 }
