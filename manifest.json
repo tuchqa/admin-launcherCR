@@ -1,0 +1,52 @@
+{
+    "version":  "1.0.0",
+    "archive_url":  "https://github.com/tuchqa/admin-launcherCR/releases/download/v1.0.0/cyberrussia-admin-1.0.0.zip",
+    "archive_sha256":  "ae02cafbd1fa6bfeb0868fe6283b64013ec3316b469d3cc8f7c6b481e7b2ff7e",
+    "server_ip":  "185.71.66.11",
+    "server_port":  7771,
+    "launch_args":  "-namalsk -c -h {ip} -p {port} -mem 8192 -n {nick}",
+    "required_files":  [
+                           "MoonLoader.asi",
+                           "SAMPFUNCS.asi",
+                           "moonloader/lib/mimgui/init.lua",
+                           "moonloader/lib/samp/events.lua",
+                           "moonloader/AdminTool.lua",
+                           "moonloader/AdminTool/tickets.lua",
+                           "moonloader/AdminTool/reconinfo.lua",
+                           "moonloader/AdminTool/reconkeys.lua",
+                           "moonloader/AdminTool/airbrake.lua",
+                           "moonloader/AdminTool/tracers.lua",
+                           "moonloader/AdminTool/iphelper.lua",
+                           "moonloader/AdminTool/banip.lua",
+                           "moonloader/AdminTool/chatfilter.lua",
+                           "moonloader/AdminTool/autowh.lua",
+                           "moonloader/AdminTool/autopred.lua",
+                           "moonloader/AdminTool/radar.lua",
+                           "moonloader/AdminTool/clickwarp.lua",
+                           "moonloader/AdminTool/hoodclear.lua"
+                       ],
+    "servers":  [
+                    {
+                        "id":  "moscow",
+                        "name":  "Москва",
+                        "ip":  "185.71.66.11",
+                        "port":  7771
+                    },
+                    {
+                        "id":  "spb",
+                        "name":  "Санкт-Петербург",
+                        "ip":  "185.71.66.11",
+                        "port":  7772
+                    }
+                ],
+    "news":  [
+                 {
+                     "date":  "20.11.2026",
+                     "title":  "AdminTool 2.0 в лаунчере",
+                     "text":  "Админ-сборка ставится и обновляется автоматически. В игре: F2 или /admintool — главное меню, Alt+E или /tw — тикеты."
+                 }
+             ],
+    "changelog":  "AdminTool 2.0: тикеты, инфо в рекон, клавиши в рекон, AirBrake, трассеры, IP-помощник, банлист по IP, фильтр чата, авто-WH, авто /pred, радар новичков, Click Warp, скрытие HUD.",
+    "launcher_version":  "1.0.0",
+    "launcher_url":  "https://github.com/tuchqa/admin-launcherCR/releases/latest"
+}
