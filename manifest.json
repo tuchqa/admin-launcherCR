@@ -1,7 +1,7 @@
 {
-    "version":  "1.0.1",
-    "archive_url":  "https://github.com/tuchqa/admin-launcherCR/releases/download/v1.0.1/cyberrussia-admin-1.0.1.zip",
-    "archive_sha256":  "90010210fa2393de6c2fb9fad11c5f8c458ee07147a0e1d5560d9eb9a3941eaf",
+    "version":  "1.1.0",
+    "archive_url":  "https://github.com/tuchqa/admin-launcherCR/releases/download/v1.1.0/cyberrussia-admin-1.1.0.zip",
+    "archive_sha256":  "30ccc2006637c5b9f4741c037e04f2a7754541e46472ab2ed1c3abc9fceea48b",
     "server_ip":  "185.71.66.11",
     "server_port":  7771,
     "launch_args":  "-namalsk -c -h {ip} -p {port} -mem 8192 -n {nick}",
@@ -13,21 +13,39 @@
                            "CLEO.asi",
                            "moonloader/lib/mimgui/init.lua",
                            "moonloader/lib/samp/events.lua",
-                           "moonloader/AdminTool.lua",
-                           "moonloader/AdminTool/tickets.lua",
-                           "moonloader/AdminTool/reconinfo.lua",
-                           "moonloader/AdminTool/reconkeys.lua",
-                           "moonloader/AdminTool/airbrake.lua",
-                           "moonloader/AdminTool/tracers.lua",
-                           "moonloader/AdminTool/iphelper.lua",
-                           "moonloader/AdminTool/banip.lua",
-                           "moonloader/AdminTool/chatfilter.lua",
-                           "moonloader/AdminTool/autowh.lua",
-                           "moonloader/AdminTool/autopred.lua",
-                           "moonloader/AdminTool/radar.lua",
-                           "moonloader/AdminTool/clickwarp.lua",
-                           "moonloader/AdminTool/hoodclear.lua"
+                           "moonloader/resource/fonts/fa-solid-900.ttf",
+                           "moonloader/AdminTool.luac",
+                           "moonloader/AdminTool/tickets.luac",
+                           "moonloader/AdminTool/reconinfo.luac",
+                           "moonloader/AdminTool/reconkeys.luac",
+                           "moonloader/AdminTool/airbrake.luac",
+                           "moonloader/AdminTool/tracers.luac",
+                           "moonloader/AdminTool/iphelper.luac",
+                           "moonloader/AdminTool/banip.luac",
+                           "moonloader/AdminTool/chatfilter.luac",
+                           "moonloader/AdminTool/autowh.luac",
+                           "moonloader/AdminTool/autopred.luac",
+                           "moonloader/AdminTool/radar.luac",
+                           "moonloader/AdminTool/clickwarp.luac",
+                           "moonloader/AdminTool/hoodclear.luac"
                        ],
+    "delete_files":  [
+                         "moonloader/AdminTool.lua",
+                         "moonloader/timewatch.lua",
+                         "moonloader/AdminTool/tickets.lua",
+                         "moonloader/AdminTool/reconinfo.lua",
+                         "moonloader/AdminTool/reconkeys.lua",
+                         "moonloader/AdminTool/airbrake.lua",
+                         "moonloader/AdminTool/tracers.lua",
+                         "moonloader/AdminTool/iphelper.lua",
+                         "moonloader/AdminTool/banip.lua",
+                         "moonloader/AdminTool/chatfilter.lua",
+                         "moonloader/AdminTool/autowh.lua",
+                         "moonloader/AdminTool/autopred.lua",
+                         "moonloader/AdminTool/radar.lua",
+                         "moonloader/AdminTool/clickwarp.lua",
+                         "moonloader/AdminTool/hoodclear.lua"
+                     ],
     "servers":  [
                     {
                         "id":  "moscow",
@@ -45,11 +63,11 @@
     "news":  [
                  {
                      "date":  "20.11.2026",
-                     "title":  "AdminTool 2.0 в лаунчере",
-                     "text":  "Админ-сборка ставится и обновляется автоматически. В игре: F2 или /admintool — главное меню, Alt+E или /tw — тикеты."
+                     "title":  "Админ Тулс 3.0",
+                     "text":  "Новый интерфейс меню и окна тикетов, окно активных тикетов на экране, настраиваемый радар новичков, исправлены авто-WH и трейсеры. Меню — F2 или /admintool, тикеты — Alt+E."
                  }
              ],
-    "changelog":  "1.0.1: добавлены lua51.dll, CLEO и фикс SAMPFUNCS для R3 — без них MoonLoader не запускался на чистом клиенте. AdminTool 2.0: тикеты, инфо в рекон, клавиши в рекон, AirBrake, трассеры, IP-помощник, банлист по IP, фильтр чата, авто-WH, авто /pred, радар новичков, Click Warp, скрытие HUD.",
-    "launcher_version":  "1.0.0",
+    "changelog":  "Новый интерфейс меню и окна тикетов. Окно активных тикетов с временем ожидания (/twpos — переместить). Радар новичков: уровень до 1–5 и интервал повтора. Авто-WH включается после каждого входа. Трейсеры больше не улетают в сторону. Серверная панель в реконе скрыта. Вместо сообщений о загрузке — одно приветствие.",
+    "launcher_version":  "1.1.0",
     "launcher_url":  "https://github.com/tuchqa/admin-launcherCR/releases/latest"
 }
