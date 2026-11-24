@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.0",
-    "archive_url":  "https://github.com/tuchqa/admin-launcherCR/releases/download/v1.2.0/cyberrussia-admin-1.2.0.zip",
-    "archive_sha256":  "88da9b97c671741d101e2ba12ea40a3b1e8ddece14ab29a8a8d22e92b81f62bb",
+    "version":  "1.2.1",
+    "archive_url":  "https://github.com/tuchqa/admin-launcherCR/releases/download/v1.2.1/cyberrussia-admin-1.2.1.zip",
+    "archive_sha256":  "f61e40a81c30045dafbcab02b9dc3f68c216ecc2ec3094d01791c4841e5e99ea",
     "server_ip":  "185.71.66.11",
     "server_port":  7771,
     "launch_args":  "-namalsk -c -h {ip} -p {port} -mem 8192 -n {nick}",
